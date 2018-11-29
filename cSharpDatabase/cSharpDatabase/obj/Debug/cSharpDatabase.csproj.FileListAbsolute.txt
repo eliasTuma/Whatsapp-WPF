@@ -1,0 +1,10 @@
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\bin\Debug\cSharpDatabase.dll.config
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\bin\Debug\cSharpDatabase.dll
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\bin\Debug\cSharpDatabase.pdb
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\bin\Debug\EntityFramework.dll
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\bin\Debug\EntityFramework.xml
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\obj\Debug\cSharpDatabase.csprojResolveAssemblyReference.cache
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\obj\Debug\cSharpDatabase.dll
+c:\users\elias\documents\visual studio 2017\Projects\cSharpDatabase\cSharpDatabase\obj\Debug\cSharpDatabase.pdb

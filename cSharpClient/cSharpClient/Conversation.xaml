@@ -1,0 +1,28 @@
+﻿<Window x:Class="cSharpClient.Conversation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cSharpClient"
+        mc:Ignorable="d"
+        Title="Conversation" Height="484.46" Width="349.662">
+    <Grid>
+        <ListView x:Name="conversationListView" HorizontalAlignment="Left" Height="314" Margin="10,10,0,0" VerticalAlignment="Top" Width="322" ItemsSource="{Binding}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderThickness="0,0,0,1" BorderBrush="LightGray" Margin="1,0,0,5" Width="300">
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock FontSize="15" Foreground="#181919"  FontFamily="Times New Roman" TextAlignment="Right" Text="{Binding LoggedInUserMsg}"/>
+                            <TextBlock FontSize="15" FontFamily="Times New Roman" Padding="5" TextAlignment="Left" Text="{Binding ContactMsg}"/>
+                        </StackPanel>
+                    </Border>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <TextBox x:Name="messageToSendText" HorizontalAlignment="Left" Height="62" Margin="10,329,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="322"/>
+        <Button x:Name="sendButton" Content="Send" HorizontalAlignment="Left" Margin="257,396,0,0" VerticalAlignment="Top" Width="75" Click="sendButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Margin="10,427,0,0" TextWrapping="Wrap" Text="All Rights Reserved © For Mira And Daniel" VerticalAlignment="Top" Width="322"/>
+
+    </Grid>
+</Window>
